@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+   android:id="@+id/layout_base3"
+    android:layout_width="wrap_content"
+    android:gravity="center_horizontal|center_vertical"
+    android:padding="8dp"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/shape_ctoast_3">
+
+
+    <ImageView
+        android:id="@+id/pulgarAbajo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/stop"
+        android:layout_marginEnd="8dp"  />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginEnd="8dp">
+
+        <TextView
+            android:id="@+id/TotasTitulo2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="El porcentaje Excede el 100%"
+            android:textAlignment="center"
+            android:textColor="#A52020"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
